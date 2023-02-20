@@ -45,7 +45,11 @@ nav ul li:hover {
   background: #cecece;
 }
 
-nav .menu-options {
+.menu-options {
+  position: absolute;
+  top: 3.5rem;
+  right: 7rem;
+  z-index: 10;
   display: none;
 }
 
