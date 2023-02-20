@@ -19,9 +19,37 @@ header {
 }
 
 /* nav */
+nav {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* switch menu */
+nav ul {
+  margin-top: 1.5rem;
+  border: solid black 0.125rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+/* hover over switch options */
+nav ul li:hover {
+  background: #cecece;
+}
+
+nav .menu-options {
+  display: hidden;
+}
 
 nav .fa-circle-half-stroke {
   font-size: 2rem;
-  float: right;
   cursor: pointer;
 }
