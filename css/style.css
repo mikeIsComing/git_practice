@@ -46,7 +46,7 @@ nav ul li:hover {
 }
 
 nav .menu-options {
-  display: hidden;
+  display: none;
 }
 
 nav .fa-circle-half-stroke {
