@@ -44,7 +44,6 @@ nav ul {
   border: solid black 0.125rem;
   border-radius: 0.625rem;
   overflow: hidden;
-  
 }
 
 nav ul li {
@@ -77,4 +76,14 @@ nav .fa-circle-half-stroke {
   width: 100%;
   height: 0.125rem;
   background-color: #000;
+}
+
+/* main section sub-heading-container */
+.container-sub-heading {
+  margin-top: 3rem;
+  text-align: center;
+}
+.container-sub-heading h2 {
+  margin: 2rem 0;
+  font-size: 2rem;
 }
