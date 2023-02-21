@@ -18,6 +18,18 @@ header {
   margin-top: 2rem;
 }
 
+.header-text {
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+}
+.header-text p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+}
+
 /* nav */
 nav {
   margin-bottom: 2rem;

@@ -17,3 +17,5 @@ function switchToLight() {
   document.body.style.color = "black";
   document.getElementById("show-SM-menu").style.display = "none";
 }
+
+
