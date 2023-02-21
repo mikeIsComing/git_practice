@@ -52,7 +52,8 @@
       </div>
       <div class="container-questions-box">
         <form action="/js/main.js" method="post">
-          <div class="container-q1">
+          <!-- QUESTION ONE SECTION -->
+          <div class="container-q1 question1">
             <p>Question 1 : chose correct number. What is result of 1 + 1 ?</p>
             <label for="answer1-q1-op1">11</label>
             <input
@@ -61,7 +62,7 @@
               value="11"
               name="answer1-q1"
             />
-            <br />
+
             <label for="answer1-q1-op2">2</label>
             <input
               type="radio"
@@ -69,7 +70,7 @@
               value="11"
               name="answer1-q1"
             />
-            <br />
+
             <label for="answer1-q1-op3">0</label>
             <input
               type="radio"
@@ -78,10 +79,66 @@
               name="answer1-q1"
             />
           </div>
-          <div class="container-q2"></div>
-          <div class="container-q3"></div>
-          <div class="container-q4"></div>
-          <div class="container-q5"></div>
+
+          <!-- QUESTION TWO SECTION -->
+          <div class="container-q1 question2">
+            <p>
+              Question 2 : chose correct number. What is result of 40 - 20 ?
+            </p>
+            <label for="answer2-q2-op1">60</label>
+            <input
+              type="radio"
+              id="answer2-q2-op1"
+              value="60"
+              name="answer2-q2"
+            />
+
+            <label for="answer2-q2-op2">20</label>
+            <input
+              type="radio"
+              id="answer2-q2-op2"
+              value="20"
+              name="answer2-q2"
+            />
+
+            <label for="answer2-q2-op3">40</label>
+            <input
+              type="radio"
+              id="answer2-q2-op3"
+              value="40"
+              name="answer2-q2"
+            />
+          </div>
+          <!-- QUESTION THREE SECTION -->
+          <div class="container-q1 question3">
+            <p>
+              Question 3 : chose correct number. What is result of 3.5 - 3.7 ?
+            </p>
+            <label for="answer3-q3-op1">-0.2</label>
+            <input
+              type="radio"
+              id="answer3-q3-op1"
+              value="-0.2"
+              name="answer3-q3"
+            />
+
+            <label for="answer3-q3-op2">7.2</label>
+            <input
+              type="radio"
+              id="answer3-q3-op2"
+              value="7.2"
+              name="answer3-q3"
+            />
+
+            <label for="answer3-q3-op3">0.2</label>
+            <input
+              type="radio"
+              id="answer3-q3-op3"
+              value="0.2"
+              name="answer3-q3"
+            />
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" />
         </form>
       </div>
     </main>

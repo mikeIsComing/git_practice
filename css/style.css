@@ -87,3 +87,23 @@ nav .fa-circle-half-stroke {
   margin: 2rem 0;
   font-size: 2rem;
 }
+
+/* first question container */
+
+.container-q1 {
+  margin-top: 5rem;
+  text-align: center;
+}
+.container-q1 p {
+  margin-bottom: 1rem;
+}
+
+.container-q1 label {
+  margin-left: 2rem;
+}
+
+.question3 {
+  margin-bottom: 6rem;
+}
+
+/* submit button */
